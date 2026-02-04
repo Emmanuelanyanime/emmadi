@@ -8,7 +8,7 @@ function updateClock(){
    var h=new Date().getHours();
    var m=new Date().getMinutes();
    var s=new Date().getSeconds();
-   var ampm="AM"
+   var ampm="pm"
 
    if(h>12){
     h=h-12
@@ -27,4 +27,5 @@ function updateClock(){
 updateClock()
    },1000)
 }
+
 updateClock()
